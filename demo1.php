@@ -109,7 +109,7 @@ class Car
 {
     var $color;
 
-    function Car($color = "green")
+    function __construct($color = "green")
     {
         $this->color = $color;
     }
