@@ -99,8 +99,11 @@
 //$x = 8E-5;
 //var_dump($x);
 
-$x = true;
-$y = false;
+//$x = true;
+//$y = false;
+
+$cars = array("Volvo", "BMW", "Toyota");
+var_dump($cars);
 
 ?>
 
