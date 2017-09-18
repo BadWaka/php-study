@@ -32,16 +32,23 @@
 //echo "<br>";
 //echo "变量 y 为: $y";
 
-function myTest()
+//function myTest()
+//{
+//    static $x = 0;
+//    echo $x;
+//    $x++;
+//}
+//
+//myTest();
+//myTest();
+//myTest();
+
+function myTest($x)
 {
-    static $x = 0;
     echo $x;
-    $x++;
 }
 
-myTest();
-myTest();
-myTest();
+myTest(5);
 
 ?>
 
