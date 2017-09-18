@@ -12,25 +12,37 @@
 //echo $z;
 //$txt='Hello World!';
 //echo $txt;
-$x = 5;
+//$x = 5;
+//
+//function myTest()
+//{
+//    global $x;
+//    $y = 10;
+//    echo '<p>测试函数内变量</p>';
+//    echo "变量 x 为: $x";
+//    echo '<br>';
+//    echo "变量 y 为: $y";
+//    echo "全局变量 $GLOBALS";
+//}
+//
+//myTest();
+//
+//echo "<p>测试函数外变量:<p>";
+//echo "变量 x 为: $x";
+//echo "<br>";
+//echo "变量 y 为: $y";
 
 function myTest()
 {
-    global $x;
-    $y = 10;
-    echo '<p>测试函数内变量</p>';
-    echo "变量 x 为: $x";
-    echo '<br>';
-    echo "变量 y 为: $y";
-    echo "全局变量 $GLOBALS";
+    static $x = 0;
+    echo $x;
+    $x++;
 }
 
 myTest();
+myTest();
+myTest();
 
-echo "<p>测试函数外变量:<p>";
-echo "变量 x 为: $x";
-echo "<br>";
-echo "变量 y 为: $y";
 ?>
 
 </body>
