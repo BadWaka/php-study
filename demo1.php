@@ -56,21 +56,39 @@
 //echo "我要学 PHP!<br>";
 //echo "这是一个", $x, "字符串，", "使用了", "多个", "参数。";
 
-$txt1 = "学习 PHP";
-$txt2 = "RUNOOB.COM";
-$cars = array("Volvo", "BMW", "Toyota");
+//$txt1 = "学习 PHP";
+//$txt2 = "RUNOOB.COM";
+//$cars = array("Volvo", "BMW", "Toyota");
+//
+////echo $txt1;
+////echo "<br>";
+////echo "在 $txt2 学习 PHP ";
+////echo "<br>";
+////echo "我车的品牌是 {$cars[0]}";
+//
+//print $txt1;
+//print "<br>";
+//print "在 $txt2 学习 PHP";
+//print "<br>";
+//print "我车的品牌是 {$cars[0]}";
 
-//echo $txt1;
+//$x = "Hello World!";
+//echo $x;
 //echo "<br>";
-//echo "在 $txt2 学习 PHP ";
-//echo "<br>";
-//echo "我车的品牌是 {$cars[0]}";
+//$x = 'Hello world!';
+//echo $x;
 
-print $txt1;
-print "<br>";
-print "在 $txt2 学习 PHP";
-print "<br>";
-print "我车的品牌是 {$cars[0]}";
+$x = 5985;
+var_dump($x);
+echo "<br>";
+$x = -345;
+var_dump($x);
+echo "<br>";
+$x = 0x8C;
+var_dump($x);
+echo "<br>";
+$x = 047;
+var_dump($x);
 
 ?>
 
