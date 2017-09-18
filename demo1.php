@@ -105,32 +105,36 @@
 //$cars = array("Volvo", "BMW", "Toyota");
 //var_dump($cars);
 
-class Car
-{
-    var $color;
+//class Car
+//{
+//    var $color;
+//
+//    function __construct($color = "green")
+//    {
+//        $this->color = $color;
+//    }
+//
+//    function what_color()
+//    {
+//        return $this->color;
+//    }
+//}
+//
+//function print_vars($obj)
+//{
+//    foreach (get_object_vars($obj) as $prop => $val) {
+//        echo "\t$prop = $val\n";
+//    }
+//}
+//
+//$herbie = new Car("white");
+//
+//echo "\herbie:Properties\n";
+//print_vars($herbie);
 
-    function __construct($color = "green")
-    {
-        $this->color = $color;
-    }
-
-    function what_color()
-    {
-        return $this->color;
-    }
-}
-
-function print_vars($obj)
-{
-    foreach (get_object_vars($obj) as $prop => $val) {
-        echo "\t$prop = $val\n";
-    }
-}
-
-$herbie = new Car("white");
-
-echo "\herbie:Properties\n";
-print_vars($herbie);
+$x = "Hello World!";
+$x = null;
+var_dump($x);
 
 ?>
 
