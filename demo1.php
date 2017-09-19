@@ -383,7 +383,9 @@
 //echo "<br>";
 //echo $_SERVER['SCRIPT_NAME'];
 
-echo serialize($_SERVER);
+//echo serialize($_SERVER);
+
+
 
 ?>
 
