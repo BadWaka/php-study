@@ -385,16 +385,25 @@
 
 //echo serialize($_SERVER);
 
-$i = 1;
+//$i = 1;
 //while ($i < 5) {
 //    echo "The number is " . $i . "<br>";
 //    $i++;
 //}
 
-do {
-    $i++;
-    echo "The number is " . $i . "<br>";
-} while ($i < 5);
+//do {
+//    $i++;
+//    echo "The number is " . $i . "<br>";
+//} while ($i < 5);
+
+//for ($i = 1; $i <= 5; $i++) {
+//    echo "The number is " . $i . "<br>";
+//}
+
+$x = array("one", "two", "three");
+foreach ($x as $value) {
+    echo $value . "<br>";
+}
 
 ?>
 
