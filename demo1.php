@@ -233,15 +233,30 @@
 //echo "<br>";
 //var_dump($a < $b);
 
-$x = array("a" => "red", "b" => "green");
-$y = array("c" => "blue", "d" => "yellow");
-$z = $x + $y; // $x 和 $y 数组合并
-var_dump($z);
-var_dump($x == $y);
-var_dump($x === $y);
-var_dump($x != $y);
-var_dump($x <> $y);
-var_dump($x !== $y);
+//$x = array("a" => "red", "b" => "green");
+//$y = array("c" => "blue", "d" => "yellow");
+//$z = $x + $y; // $x 和 $y 数组合并
+//var_dump($z);
+//var_dump($x == $y);
+//var_dump($x === $y);
+//var_dump($x != $y);
+//var_dump($x <> $y);
+//var_dump($x !== $y);
+
+//$test = '菜鸟教程';
+//// 普通写法
+//$username = isset($test) ? $test : 'nobody';
+//echo $username, PHP_EOL;
+//
+//// PHP 5.3+ 版本写法
+//$username = $test ?: 'nobody';
+//echo $username, PHP_EOL;
+
+// 如果 $_GET['user'] 不存在返回 'nobody'，否则返回 $_GET['user'] 的值
+$username = $_GET['user'] ?? 'nobody';
+// 类似三元运算符
+$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
+echo $username;
 
 ?>
 
