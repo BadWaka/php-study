@@ -132,9 +132,15 @@
 //echo "\herbie:Properties\n";
 //print_vars($herbie);
 
-$x = "Hello World!";
-$x = null;
-var_dump($x);
+//$x = "Hello World!";
+//$x = null;
+//var_dump($x);
+
+// 区分大小写的常量
+define("GREETING", "欢迎访问 Runoob.com");
+echo GREETING;
+echo '<br>';
+echo greeting;
 
 ?>
 
