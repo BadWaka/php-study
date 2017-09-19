@@ -427,26 +427,62 @@
 
 //echo '这是第" ' . __LINE__ . ' "行';
 //echo '该文件位于" ' . __FILE__ . '"';
-//echo '该文件位于" ' . __DIR__ . '"';
+////echo '该文件位于" ' . __DIR__ . '"';
+////
+////function test()
+////{
+////    echo '函数名为:' . __FUNCTION__;
+////}
+////
+////test();
 //
+////class Test
+////{
+////    function _print()
+////    {
+////        echo '类名为:' . __CLASS__ . "<br>";
+////        echo '函数名为:' . __FUNCTION__;
+////    }
+////}
+////
+////$t = new Test();
+////$t->_print();
+//
+//class Base
+//{
+//    public function sayHello()
+//    {
+//        echo 'Hello';
+//    }
+//}
+//
+//trait SayWorld
+//{
+//    public function sayHello()
+//    {
+//        parent::sayHello();
+//        echo 'World';
+//    }
+//}
+//
+//class MyHelloWorld extends Base
+//{
+//    use SayWorld;
+//}
+//
+//$o = new MyHelloWorld();
+//$o->sayHello();
+
 //function test()
 //{
-//    echo '函数名为:' . __FUNCTION__;
+//    echo '函数名为：' . __METHOD__;
 //}
 //
 //test();
 
-class Test
-{
-    function _print()
-    {
-        echo '类名为:' . __CLASS__ . "<br>";
-        echo '函数名为:' . __FUNCTION__;
-    }
-}
+namespace MyProject;
 
-$t = new Test();
-$t->_print();
+echo '命名空间为："', __NAMESPACE__, '"'; // 输出 "MyProject"
 
 ?>
 
