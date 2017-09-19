@@ -136,10 +136,14 @@
 //$x = null;
 //var_dump($x);
 
-// 区分大小写的常量
-define("GREETING", "欢迎访问 Runoob.com");
-echo GREETING;
-echo '<br>';
+//// 区分大小写的常量
+//define("GREETING", "欢迎访问 Runoob.com");
+//echo GREETING;
+//echo '<br>';
+//echo greeting;
+
+// 不区分大小写的常量
+define("GREETING", "欢迎访问 Runoob.com", true);
 echo greeting;
 
 ?>
