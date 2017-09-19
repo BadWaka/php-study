@@ -258,20 +258,27 @@
 //$username = isset($_GET['user']) ? $_GET['user'] : 'nobody';
 //echo $username;
 
-// 整型
-echo 1 <=> 1;
-echo 1 <=> 2;
-echo 2 <=> 1;
+//// 整型
+//echo 1 <=> 1;
+//echo 1 <=> 2;
+//echo 2 <=> 1;
+//
+//// 浮点型
+//echo 1.5 <=> 1.5;
+//echo 1.5 <=> 2.5;
+//echo 3.5 <=> 1.5;
+//
+//// 字符串
+//echo "a" <=> "a";
+//echo "a" <=> "b";
+//echo "b" <=> "a";
 
-// 浮点型
-echo 1.5 <=> 1.5;
-echo 1.5 <=> 2.5;
-echo 3.5 <=> 1.5;
-
-// 字符串
-echo "a" <=> "a";
-echo "a" <=> "b";
-echo "b" <=> "a";
+$a = 3;
+$b = false;
+$c = $a or $b;
+var_dump($c);
+$d = $a || $b;
+var_dump($d);
 
 ?>
 
