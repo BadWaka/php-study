@@ -400,10 +400,30 @@
 //    echo "The number is " . $i . "<br>";
 //}
 
-$x = array("one", "two", "three");
-foreach ($x as $value) {
-    echo $value . "<br>";
+//$x = array("one", "two", "three");
+//foreach ($x as $value) {
+//    echo $value . "<br>";
+//}
+
+//function writeName($fname)
+//{
+//    echo $fname . " Refsnes";
+//}
+//
+//echo "My name is ";
+//writeName("Waka");
+//echo "My sister's name is ";
+//writeName("Hege");
+//echo "My brother's name is ";
+//writeName("Stale");
+
+function add($x, $y)
+{
+    $total = $x + $y;
+    return $total;
 }
+
+echo "1 + 16 = " . add(1, 16);
 
 ?>
 
