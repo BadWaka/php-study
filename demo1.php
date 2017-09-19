@@ -142,16 +142,18 @@
 //echo '<br>';
 //echo greeting;
 
-// 不区分大小写的常量
-define("GREETING", "欢迎访问 Runoob.com", true);
-//echo greeting;
+//// 不区分大小写的常量
+//define("GREETING", "欢迎访问 Runoob.com", true);
+////echo greeting;
+//
+//function myTest()
+//{
+//    echo GREETING;
+//}
+//
+//myTest();
 
-function myTest()
-{
-    echo GREETING;
-}
-
-myTest();
+echo "__DIR__",__DIR__;
 
 ?>
 
