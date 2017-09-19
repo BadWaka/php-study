@@ -157,8 +157,12 @@
 
 //echo "__DIR__", __DIR__;
 
-$txt = "Hello world!";
-echo $txt;
+//$txt = "Hello world!";
+//echo $txt;
+
+$txt1 = "Hello world!";
+$txt2 = "What a nice day!";
+echo $txt1 . " " . $txt2;
 
 ?>
 
