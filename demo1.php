@@ -355,10 +355,21 @@
 //rsort($numbers);
 //echo implode(" ", $numbers);
 
-$age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
-krsort($age);
-//echo serialize($age);
-echo implode(" ", $age);
+//$age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
+//krsort($age);
+////echo serialize($age);
+//echo implode(" ", $age);
+
+$x = 75;
+$y = 25;
+
+function addition()
+{
+    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+addition();
+echo $z;
 
 ?>
 
