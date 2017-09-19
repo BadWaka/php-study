@@ -164,7 +164,9 @@
 //$txt2 = "What a nice day!";
 //echo $txt1 . " " . $txt2;
 
-echo strlen("Hello world!");
+//echo strlen("Hello world!");
+
+echo strpos("Hello world!", "world");
 
 ?>
 
