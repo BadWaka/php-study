@@ -360,16 +360,30 @@
 ////echo serialize($age);
 //echo implode(" ", $age);
 
-$x = 75;
-$y = 25;
+//$x = 75;
+//$y = 25;
+//
+//function addition()
+//{
+//    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
+//}
+//
+//addition();
+//echo $z;
 
-function addition()
-{
-    $GLOBALS['z'] = $GLOBALS['x'] + $GLOBALS['y'];
-}
+//echo $_SERVER['PHP_SELF'];
+//echo "<br>";
+//echo $_SERVER['SERVER_NAME'];
+//echo "<br>";
+//echo $_SERVER['HTTP_HOST'];
+//echo "<br>";
+//echo $_SERVER['HTTP_REFERER'];
+//echo "<br>";
+//echo $_SERVER['HTTP_USER_AGENT'];
+//echo "<br>";
+//echo $_SERVER['SCRIPT_NAME'];
 
-addition();
-echo $z;
+echo serialize($_SERVER);
 
 ?>
 
