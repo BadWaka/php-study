@@ -417,13 +417,36 @@
 //echo "My brother's name is ";
 //writeName("Stale");
 
-function add($x, $y)
+//function add($x, $y)
+//{
+//    $total = $x + $y;
+//    return $total;
+//}
+//
+//echo "1 + 16 = " . add(1, 16);
+
+//echo '这是第" ' . __LINE__ . ' "行';
+//echo '该文件位于" ' . __FILE__ . '"';
+//echo '该文件位于" ' . __DIR__ . '"';
+//
+//function test()
+//{
+//    echo '函数名为:' . __FUNCTION__;
+//}
+//
+//test();
+
+class Test
 {
-    $total = $x + $y;
-    return $total;
+    function _print()
+    {
+        echo '类名为:' . __CLASS__ . "<br>";
+        echo '函数名为:' . __FUNCTION__;
+    }
 }
 
-echo "1 + 16 = " . add(1, 16);
+$t = new Test();
+$t->_print();
 
 ?>
 
