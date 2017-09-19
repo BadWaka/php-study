@@ -273,12 +273,22 @@
 //echo "a" <=> "b";
 //echo "b" <=> "a";
 
-$a = 3;
-$b = false;
-$c = $a or $b;
-var_dump($c);
-$d = $a || $b;
-var_dump($d);
+//$a = 3;
+//$b = false;
+//$c = $a or $b;
+//var_dump($c);
+//$d = $a || $b;
+//var_dump($d);
+
+$a = 1;
+$b = 2;
+$c = 3;
+$d = $a + $b * $c;
+echo $d;
+echo "\n";
+$e = ($a + $b) * $c;
+echo $e;
+echo "\n";
 
 ?>
 
