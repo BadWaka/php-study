@@ -190,29 +190,58 @@
 //var_dump(intdiv(10, 3));
 //echo intdiv(10, 3);
 
-$x = 10;
-echo $x;
-echo '<br>';
+//$x = 10;
+//echo $x;
+//echo '<br>';
+//
+//$y = 20;
+//$y += 100;
+//echo $y;
+//
+//$z = 50;
+//$z -= 25;
+//echo $z; // 输出25
+//
+//$i = 5;
+//$i *= 6;
+//echo $i; // 输出30
+//
+//$j = 10;
+//$j /= 5;
+//echo $j; // 输出2
+//
+//$k = 15;
+//$k %= 4;
+//echo $k; // 输出3
 
-$y = 20;
-$y += 100;
-echo $y;
+//$x = 100;
+//$y = "100";
+//
+//var_dump($x == $y);
+//echo "<br>";
+//var_dump($x === $y);
+//echo "<br>";
+//var_dump($x <> $y);
+//echo "<br>";
+//var_dump($x !== $y);
+//echo "<br>";
+//
+//$a = 50;
+//$b = 90;
+//
+//var_dump($a > $b);
+//echo "<br>";
+//var_dump($a < $b);
 
-$z = 50;
-$z -= 25;
-echo $z; // 输出25
-
-$i = 5;
-$i *= 6;
-echo $i; // 输出30
-
-$j = 10;
-$j /= 5;
-echo $j; // 输出2
-
-$k = 15;
-$k %= 4;
-echo $k; // 输出3
+$x = array("a" => "red", "b" => "green");
+$y = array("c" => "blue", "d" => "yellow");
+$z = $x + $y; // $x 和 $y 数组合并
+var_dump($z);
+var_dump($x == $y);
+var_dump($x === $y);
+var_dump($x != $y);
+var_dump($x <> $y);
+var_dump($x !== $y);
 
 ?>
 
