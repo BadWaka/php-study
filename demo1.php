@@ -166,7 +166,29 @@
 
 //echo strlen("Hello world!");
 
-echo strpos("Hello world!", "world");
+//echo strpos("Hello world!", "world");
+
+//$x = 10;
+//$y = 6;
+//echo($x + $y);
+//echo '<br>';
+//
+//echo ($x - $y); // 输出4
+//echo '<br>';  // 换行
+//
+//echo ($x * $y); // 输出60
+//echo '<br>';  // 换行
+//
+//echo ($x / $y); // 输出1.6666666666667
+//echo '<br>';  // 换行
+//
+//echo ($x % $y); // 输出4
+//echo '<br>';  // 换行
+//
+//echo -$x;
+
+var_dump(intdiv(10, 3));
+echo intdiv(10, 3);
 
 ?>
 
