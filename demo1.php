@@ -149,11 +149,16 @@
 //function myTest()
 //{
 //    echo GREETING;
+
+
 //}
 //
 //myTest();
 
-echo "__DIR__",__DIR__;
+//echo "__DIR__", __DIR__;
+
+$txt = "Hello world!";
+echo $txt;
 
 ?>
 
