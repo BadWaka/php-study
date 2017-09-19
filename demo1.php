@@ -160,9 +160,11 @@
 //$txt = "Hello world!";
 //echo $txt;
 
-$txt1 = "Hello world!";
-$txt2 = "What a nice day!";
-echo $txt1 . " " . $txt2;
+//$txt1 = "Hello world!";
+//$txt2 = "What a nice day!";
+//echo $txt1 . " " . $txt2;
+
+echo strlen("Hello world!");
 
 ?>
 
