@@ -280,15 +280,25 @@
 //$d = $a || $b;
 //var_dump($d);
 
-$a = 1;
-$b = 2;
-$c = 3;
-$d = $a + $b * $c;
-echo $d;
-echo "\n";
-$e = ($a + $b) * $c;
-echo $e;
-echo "\n";
+//$a = 1;
+//$b = 2;
+//$c = 3;
+//$d = $a + $b * $c;
+//echo $d;
+//echo "\n";
+//$e = ($a + $b) * $c;
+//echo $e;
+//echo "\n";
+
+$t = date("H");
+echo $t;
+if ($t < "10") {
+    echo "Have a good morning!";
+} elseif ($t < "20") {
+    echo "Have a good day!";
+} else {
+    echo "Have a good night!";
+}
 
 ?>
 
