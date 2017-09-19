@@ -325,13 +325,40 @@
 //    echo "<br>";
 //}
 
-$age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
-echo "Peter is " . $age['Peter'] . " years old.";
+//$age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
+//echo "Peter is " . $age['Peter'] . " years old.";
+//
+//foreach ($age as $x => $x_value) {
+//    echo "Key=" . $x . ", Value=" . $x_value;
+//    echo "<br>";
+//}
 
-foreach ($age as $x => $x_value) {
-    echo "Key=" . $x . ", Value=" . $x_value;
-    echo "<br>";
-}
+//$cars = array("Volvo", "BMW", "Toyota");
+//echo serialize($cars);
+//echo '<br>';
+//sort($cars);
+//echo serialize($cars);
+
+//$numbers = array(4, 6, 2, 22, 11);
+////echo serialize($numbers);
+//echo implode(" ", $numbers);
+//echo '<br>';
+//sort($numbers);
+////echo serialize($numbers);
+//echo implode(" ", $numbers);
+//
+//$cars = array("Volvo", "BMW", "Toyota");
+//rsort($cars);
+//echo implode(" ", $cars);
+
+//$numbers=array(4,6,2,22,11);
+//rsort($numbers);
+//echo implode(" ", $numbers);
+
+$age = array("Peter" => "35", "Ben" => "37", "Joe" => "43");
+krsort($age);
+//echo serialize($age);
+echo implode(" ", $age);
 
 ?>
 
