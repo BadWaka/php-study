@@ -16,6 +16,7 @@
 require('../includes/setup.php');
 $smarty = new Smarty_GuestBook();
 $smarty->assign('name', 'Ned');
-$smarty->assign('title', '这是一个标题');
+$smarty->assign('foo', '这是一个标题');
 //$smarty->display('index.tpl');
-$smarty->display('comments.tpl');
+//$smarty->display('comments.tpl');
+$smarty->display('variable.tpl');
