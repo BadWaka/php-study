@@ -1,3 +1,4 @@
+<!--Example 2.2. 手动指定 SMARTY_DIR 常量-->
 <?php
 // unix style (note capital 'S')
 define('SMARTY_DIR', '/usr/local/lib/smarty-3.1.30/libs/');
