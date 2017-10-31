@@ -22,4 +22,5 @@ $smarty->assign('foo', '这是一个标题');
 //$smarty->display('variable.tpl');
 //$smarty->display('function.tpl');
 //$smarty->display('attribute.tpl');
-$smarty->display('double_quotation_marks_variable.tpl');
+//$smarty->display('double_quotation_marks_variable.tpl');
+$smarty->display('mathematical_calculation.tpl');
