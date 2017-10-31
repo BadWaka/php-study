@@ -19,4 +19,5 @@ $smarty->assign('name', 'Ned');
 $smarty->assign('foo', '这是一个标题');
 //$smarty->display('index.tpl');
 //$smarty->display('comments.tpl');
-$smarty->display('variable.tpl');
+//$smarty->display('variable.tpl');
+$smarty->display('function.tpl');
